@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* color define start  */
+.primary-text-color{
+    color: #252432;
+}
+.Secondary-text-color{
+    color: #757575;
+}
+.tertiary-text-color{
+    color: #B3B3B3;
+}
+.blue-text-color{
+    color: #4E47FF;
+}
+.white-text-color{
+    color: #FFFFFF;
+}
+.primary-color{
+    background-color: #4E47FF;
+}
+.bg-color{
+    background-color: #F5F8FF;
+}
+/* color define end */ 
+
+
+
+/*==============header section start=================*/
+
+header{
+    background-image: url("./Assets/Hero-bg.png");
+    height: 700px;
+    width: 100%;
+    
+}
+header nav{
+    margin-bottom: 150px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 50px;
+    align-items: center;
+}
+header nav ul li h1{
+    font-size: 50px;
+}
+header ul li button{
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    border: none;
+}
+
+header section h2{
+    text-align: center;
+    font-size: 5em;
+}
+header section button{
+    display: block;
+    text-align: center;
+    margin: 50px  auto;
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    border: none;
+    
+}
+
+/*==============header section end =================*/
+
+
+/*==============Action section start=================*/
+
+main .Action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+main section div{
+    display: block;
+    margin-top: 150px;
+}
+main section div h1{
+    font-size: 60px;
+    margin: 20px 0;
+}
+main section div p{
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: 300;
+}
+main section div button{
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    border: none;
+}
+main section .Action-image img{
+    border-radius: 70px;
+    height: 450px;
+    width: 550px;
+
+}
+
+
+/*==============Action section end=================*/
+
+
+/*==============productive user section start=================*/
+
+main .productive-users-section{
+    margin-top: 150px;
+    
+}
+main section .productive-users-div{
+    background-color: rgba(0, 0, 255, 0.11);
+    width: 80%;
+    height: 300px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+main section .productive-users-div h3{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+main section .productive-users-div div{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+}
+main section .productive-users-div div div{
+    display: inline;
+    margin: 0;
+}
+main section .productive-users-div div div h1{
+    font-size: 90px;
+    color: #4E47FF;
+}
+main section .productive-users-div div div span{
+    font-size: 30px;
+    margin-top: -40px;
+    position: absolute;
+    color: #757575;
+}
+
+
+
+
+
+
+
+
+
+/*==============productive user section end=================*/
+
+
+
+
+/*==============Action section end=================*/
+/*==============Action section end=================*/
+
+
+
+
+
+
+
+
+/*==============Action section end=================*/
+/*==============Action section end=================*/
